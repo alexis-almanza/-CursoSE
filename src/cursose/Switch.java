@@ -2,16 +2,17 @@ package cursose;
 
 public class Switch {
 	public static void main(String[] args) {
-		int valor = 5;
+		
+		String valor = "Alexis";
 		
 		switch(valor) {
-		case 1: 
+		case "NES": 
 			System.out.println("valor 1 "); 
 			break;
-		case 2:
+		case "GEERA":
 			System.out.println("valor 2 "); 
 			break;
-		case 3:
+		case "Alexis":
 			System.out.println("valor 3 "); 
 			break;
 			default:
