@@ -122,7 +122,7 @@ public class DatosPersonales {
 		while(val < 10) {
 			System.out.println(val +" Valor aun menor");
 			val++;
-		}*/
+		}
 		
 		String nombre = "";
 		while(!nombre.equals("Alexis")) {
@@ -133,6 +133,8 @@ public class DatosPersonales {
 		}
 		
 		System.out.println("hola Alexis");
+		*/
+		
 		
 	}
 
