@@ -18,6 +18,9 @@ public class _20_CLASES {
 	public static void main(String[] args) {
 		_20_CLASES sc = new _20_CLASES();
 		sc.prueba();
+		
+		_23_consPOO input = new _23_consPOO("Alexis" , "rojo ");
+		input.llamar();
 	}
 
 }
