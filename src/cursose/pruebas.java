@@ -2,9 +2,22 @@ package cursose;
 
 public class pruebas {
 	public static void main(String[] args) {
-		_24_Constructor sc1 = new _24_Constructor();
-		_24_Constructor sc2 = new _24_Constructor("Alexis");
-		sc2.llamar();
+		
+		_25_getSet sc = new _25_getSet();
+		sc.setNombre("Alexis");
+		sc.setApellido("Almanza Ortega");
+		sc.setColor("GREEN");
+		
+		String apellido = sc.getApellido();
+		String nombre = sc.getNombre();
+		System.out.println(nombre);
+		System.out.println(apellido);
+		System.out.println(sc.getColor());
+		
+		
+		//el set y get se utiliza para poder retornar los valores de ambito private
+		
+		
 	}
 
 }

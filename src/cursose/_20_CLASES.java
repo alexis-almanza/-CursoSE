@@ -21,6 +21,7 @@ public class _20_CLASES {
 		
 		_23_consPOO input = new _23_consPOO("Alexis" , "rojo ");
 		input.llamar();
+
 	}
 
 }
